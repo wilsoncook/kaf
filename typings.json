@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20161110151007"
+  },
+  "dependencies": {
+    "statuses": "registry:dt/statuses#1.2.1+20160428043022"
+  }
+}

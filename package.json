@@ -1,0 +1,36 @@
+{
+  "name": "kaf",
+  "version": "1.0.0",
+  "description": "a startup framework for learning",
+  "main": "lib/application.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsoncook/kaf.git"
+  },
+  "keywords": [
+    "kaf"
+  ],
+  "author": "Wilson Zeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsoncook/kaf/issues"
+  },
+  "homepage": "https://github.com/wilsoncook/kaf",
+  "engines": {
+    "nodejs": ">= 4.0.0"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.13",
+    "statuses": "^1.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-typescript": "^3.1.3",
+    "typescript": "^2.1.4"
+  }
+}

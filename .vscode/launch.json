@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to find out which attributes exist for node debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "type": "node2",
+            "runtimeExecutable": "E:\\Program Files (x86)\\nodejs\\node691.exe",
+            "request": "launch",
+            "program": "${workspaceRoot}\\compiled\\index.js",
+            "cwd": "${workspaceRoot}\\compiled",
+            "outFiles": [],
+            "sourceMaps": true
+        },
+        {
+            "name": "Debug Test Cases",
+            "type": "node2",
+            "runtimeExecutable": "E:\\Program Files (x86)\\nodejs\\node691.exe",
+            "request": "launch",
+            "program": "${workspaceRoot}\\compiled\\test\\lib\\application.js",
+            "cwd": "${workspaceRoot}\\compiled",
+            "outFiles": [],
+            "sourceMaps": true
+        },
+        {
+            "name": "Attach to Process",
+            "type": "node2",
+            "request": "attach",
+            "port": 9229,
+            "outFiles": [],
+            "sourceMaps": true
+        }
+    ]
+}
